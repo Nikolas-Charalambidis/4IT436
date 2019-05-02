@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="ETL"
   DTS:PackageType="5"
-  DTS:VersionBuild="154"
-  DTS:VersionGUID="{575212F9-B30B-48C3-941B-3C4C36850451}">
+  DTS:VersionBuild="156"
+  DTS:VersionGUID="{4244E986-6703-473F-A8E2-F1C3F1D22071}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -11507,114 +11507,114 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
               startId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Osobní.Outputs[Derived Column Output]" />
             <path
               refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output10]"
-              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 1).Inputs[OLE DB Destination Input]"
-              name="Derived Column Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Zdroj.Outputs[Derived Column Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output9]"
-              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 5).Inputs[OLE DB Destination Input]"
-              name="Derived Column Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Režie.Outputs[Derived Column Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output8]"
-              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 5).Inputs[OLE DB Destination Input]"
-              name="Derived Column Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Režije.Outputs[Derived Column Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output7]"
-              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 4).Inputs[OLE DB Destination Input]"
-              name="Derived Column Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Nájem.Outputs[Derived Column Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output6]"
-              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 2).Inputs[OLE DB Destination Input]"
-              name="Derived Column Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Mzda.Outputs[Derived Column Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output11]"
-              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 4).Inputs[OLE DB Destination Input]"
-              name="Derived Column Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Nájem.Outputs[Derived Column Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output4]"
-              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 1).Inputs[OLE DB Destination Input]"
-              name="Derived Column Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Zdroj.Outputs[Derived Column Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output3]"
-              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 2).Inputs[OLE DB Destination Input]"
-              name="Derived Column Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Mzda.Outputs[Derived Column Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output2]"
-              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 1, 1).Inputs[OLE DB Destination Input]"
-              name="Derived Column Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Příjem + Zdroj.Outputs[Derived Column Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output1]"
               endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 1, 1).Inputs[OLE DB Destination Input]"
               name="Derived Column Output"
               startId="Package\Fill in F_UCETNI_OPERACE\Plán + Příjem + Zdroj.Outputs[Derived Column Output]" />
             <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output5]"
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output9]"
+              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 1, 1).Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Příjem + Zdroj.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output8]"
+              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 2).Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Mzda.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output7]"
+              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 1).Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Zdroj.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output6]"
+              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 4).Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Nájem.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output11]"
               endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 3).Inputs[OLE DB Destination Input]"
               name="Derived Column Output"
               startId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Osobní.Outputs[Derived Column Output]" />
             <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output4]"
+              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 4).Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Nájem.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output3]"
+              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 5).Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Režije.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output2]"
+              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 5).Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Režie.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output1]"
+              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 1).Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Zdroj.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output5]"
+              endId="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 2).Inputs[OLE DB Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Mzda.Outputs[Derived Column Output]" />
+            <path
               refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output9]"
-              endId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Zdroj.Inputs[Derived Column Input]"
-              name="OLE DB Source Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_zdroje_skutecnost.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output8]"
-              endId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Osobní.Inputs[Derived Column Input]"
-              name="OLE DB Source Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_osobni_plan.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output7]"
-              endId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Mzda.Inputs[Derived Column Input]"
-              name="OLE DB Source Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_mzdy_skutecnost.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output6]"
-              endId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Osobní.Inputs[Derived Column Input]"
-              name="OLE DB Source Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_osobni_skutecnost.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output5]"
-              endId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Zdroj.Inputs[Derived Column Input]"
-              name="OLE DB Source Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_zdroje_plan.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output3]"
-              endId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Mzda.Inputs[Derived Column Input]"
-              name="OLE DB Source Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_mzdy_plan.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output2]"
-              endId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Režije.Inputs[Derived Column Input]"
-              name="OLE DB Source Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_rezie_skutecnost.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output1]"
-              endId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Režie.Inputs[Derived Column Input]"
-              name="OLE DB Source Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_rezije_plan.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output]"
-              endId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Příjem + Zdroj.Inputs[Derived Column Input]"
-              name="OLE DB Source Output"
-              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_prijmy_skutecnost.Outputs[OLE DB Source Output]" />
-            <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output10]"
               endId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Nájem.Inputs[Derived Column Input]"
               name="OLE DB Source Output"
               startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_najem_plan.Outputs[OLE DB Source Output]" />
             <path
-              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output4]"
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output8]"
+              endId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Příjem + Zdroj.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_prijmy_skutecnost.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output7]"
+              endId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Režie.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_rezije_plan.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output6]"
+              endId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Režije.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_rezie_skutecnost.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output5]"
+              endId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Mzda.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_mzdy_plan.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output3]"
+              endId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Osobní.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_osobni_skutecnost.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output2]"
+              endId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Mzda.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_mzdy_skutecnost.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output1]"
+              endId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Osobní.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_osobni_plan.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output]"
+              endId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Zdroj.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_zdroje_skutecnost.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output10]"
               endId="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Nájem.Inputs[Derived Column Input]"
               name="OLE DB Source Output"
               startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_najem_skutecnost.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output4]"
+              endId="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Zdroj.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_zdroje_plan.Outputs[OLE DB Source Output]" />
             <path
               refId="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output11]"
               endId="Package\Fill in F_UCETNI_OPERACE\Plán + Příjem + Zdroj.Inputs[Derived Column Input]"
@@ -12260,7 +12260,7 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="MSSQL - D_DRUH_UCETNI_OPERACE"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -12276,7 +12276,7 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="MSSQL - D_FINANCNI_REALIZACE"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -12292,7 +12292,7 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="MSSQL - D_TYP_UCETNI_OPERACE"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -12827,7 +12827,7 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
     design-time-name="Package\Fill in D_OKRES and D_ZROJ">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="168,42"
           Id="Package\Fill in D_OKRES and D_ZROJ\MSSQL - D_OKRES"
@@ -12867,7 +12867,9 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12889,7 +12891,9 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12911,7 +12915,9 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -12968,7 +12974,7 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
     design-time-name="Package\Fill in D_POBOCKA">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="182,42"
           Id="Package\Fill in D_POBOCKA\MSSQL - D_POBOCKA"
@@ -13000,7 +13006,9 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -13022,7 +13030,9 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -13213,7 +13223,7 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
     design-time-name="Package\Fill in D_ZAKAZNIK">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="184,42"
           Id="Package\Fill in D_ZAKAZNIK\MSSQL - D_ZAKAZNIK"
@@ -13241,7 +13251,9 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -13277,7 +13289,7 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
     design-time-name="Package\Fill in D_ZAMESTNANEC">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="207,42"
           Id="Package\Fill in D_ZAMESTNANEC\MSSQL - D_ZAMESTNANEC"
@@ -13305,7 +13317,9 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -13632,120 +13646,8 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="263,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 1, 1)"
-          TopLeft="606,19" />
-        <NodeLayout
-          Size="185,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_prijmy_plan"
-          TopLeft="37,17" />
-        <NodeLayout
-          Size="182,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Plán + Příjem + Zdroj"
-          TopLeft="339,18" />
-        <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output11]"
-          TopLeft="222,38.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="117,0"
-              Start="0,0"
-              End="109.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="109.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output1]"
-          TopLeft="521,39.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="85,0"
-              Start="0,0"
-              End="77.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="77.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="263,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 1, 1)"
-          TopLeft="607,67" />
-        <NodeLayout
-          Size="216,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_prijmy_skutecnost"
-          TopLeft="37,67" />
-        <NodeLayout
-          Size="213,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Příjem + Zdroj"
-          TopLeft="339,67" />
-        <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output]"
-          TopLeft="253,88">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="86,0"
-              Start="0,0"
-              End="78.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="78.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output2]"
-          TopLeft="552,88">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="55,0"
-              Start="0,0"
-              End="47.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="47.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="263,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 2)"
-          TopLeft="611,219" />
+          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 5)"
+          TopLeft="616,576" />
         <NodeLayout
           Size="217,42"
           Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_mzdy_plan"
@@ -13754,31 +13656,141 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
           Size="178,42"
           Id="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Mzda"
           TopLeft="342,221" />
+        <NodeLayout
+          Size="263,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 3)"
+          TopLeft="611,322" />
+        <NodeLayout
+          Size="218,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Osobní"
+          TopLeft="345,374" />
+        <NodeLayout
+          Size="186,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Osobní"
+          TopLeft="345,324" />
+        <NodeLayout
+          Size="223,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_osobni_plan"
+          TopLeft="43,323" />
+        <NodeLayout
+          Size="263,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 2)"
+          TopLeft="611,270" />
+        <NodeLayout
+          Size="245,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_rezie_skutecnost"
+          TopLeft="47,577" />
+        <NodeLayout
+          Size="263,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 1, 1)"
+          TopLeft="606,19" />
+        <NodeLayout
+          Size="221,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_zdroje_plan"
+          TopLeft="39,117" />
+        <NodeLayout
+          Size="216,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Nájem"
+          TopLeft="345,476" />
+        <NodeLayout
+          Size="184,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Nájem"
+          TopLeft="344,425" />
+        <NodeLayout
+          Size="263,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 5)"
+          TopLeft="615,525" />
+        <NodeLayout
+          Size="263,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 4)"
+          TopLeft="614,474" />
+        <NodeLayout
+          Size="210,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Zdroj"
+          TopLeft="340,169" />
+        <NodeLayout
+          Size="210,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Mzda"
+          TopLeft="342,272" />
+        <NodeLayout
+          Size="263,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 2)"
+          TopLeft="611,219" />
+        <NodeLayout
+          Size="216,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_prijmy_skutecnost"
+          TopLeft="37,67" />
+        <NodeLayout
+          Size="263,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 1)"
+          TopLeft="609,167" />
+        <NodeLayout
+          Size="252,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_najem_skutecnost"
+          TopLeft="45,475" />
+        <NodeLayout
+          Size="213,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Příjem + Zdroj"
+          TopLeft="339,67" />
+        <NodeLayout
+          Size="182,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Plán + Příjem + Zdroj"
+          TopLeft="339,18" />
+        <NodeLayout
+          Size="248,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_mzdy_skutecnost"
+          TopLeft="42,271" />
+        <NodeLayout
+          Size="254,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_osobni_skutecnost"
+          TopLeft="43,373" />
+        <NodeLayout
+          Size="263,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 4)"
+          TopLeft="613,423" />
+        <NodeLayout
+          Size="218,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_rezije_plan"
+          TopLeft="46,526" />
+        <NodeLayout
+          Size="252,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_zdroje_skutecnost"
+          TopLeft="40,168" />
+        <NodeLayout
+          Size="263,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 3)"
+          TopLeft="611,372" />
+        <NodeLayout
+          Size="178,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Zdroj"
+          TopLeft="339,118" />
+        <NodeLayout
+          Size="263,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 1)"
+          TopLeft="608,116" />
+        <NodeLayout
+          Size="179,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Režie"
+          TopLeft="346,527" />
+        <NodeLayout
+          Size="263,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 1, 1)"
+          TopLeft="607,67" />
+        <NodeLayout
+          Size="213,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Režije"
+          TopLeft="347,578" />
+        <NodeLayout
+          Size="222,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_najem_plan"
+          TopLeft="44,424" />
+        <NodeLayout
+          Size="185,42"
+          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_prijmy_plan"
+          TopLeft="37,17" />
         <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output3]"
-          TopLeft="259,241.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="83,0"
-              Start="0,0"
-              End="75.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="75.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output3]"
-          TopLeft="520,241">
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output7]"
+          TopLeft="517,138">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -13798,32 +13810,20 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="263,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 2)"
-          TopLeft="611,270" />
-        <NodeLayout
-          Size="248,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_mzdy_skutecnost"
-          TopLeft="42,271" />
-        <NodeLayout
-          Size="210,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Mzda"
-          TopLeft="342,272" />
         <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output7]"
-          TopLeft="290,292.5">
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output6]"
+          TopLeft="528,445">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="52,0"
+              EndConnector="85,0"
               Start="0,0"
-              End="44.5,0">
+              End="77.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="44.5,0" />
+                    End="77.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13833,7 +13833,7 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output6]"
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output5]"
           TopLeft="552,292">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -13854,32 +13854,20 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="263,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 3)"
-          TopLeft="611,322" />
-        <NodeLayout
-          Size="223,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_osobni_plan"
-          TopLeft="43,323" />
-        <NodeLayout
-          Size="186,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Osobní"
-          TopLeft="345,324" />
         <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output8]"
-          TopLeft="266,344.5">
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output4]"
+          TopLeft="561,496">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="79,0"
+              EndConnector="53,0"
               Start="0,0"
-              End="71.5,0">
+              End="45.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="71.5,0" />
+                    End="45.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13889,19 +13877,19 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output5]"
-          TopLeft="531,344">
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output3]"
+          TopLeft="560,598">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="80,0"
+              EndConnector="56,0"
               Start="0,0"
-              End="72.5,0">
+              End="48.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="72.5,0" />
+                    End="48.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13910,32 +13898,42 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="263,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 3)"
-          TopLeft="611,372" />
-        <NodeLayout
-          Size="254,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_osobni_skutecnost"
-          TopLeft="43,373" />
-        <NodeLayout
-          Size="218,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Osobní"
-          TopLeft="345,374" />
         <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output6]"
-          TopLeft="297,394.5">
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output2]"
+          TopLeft="525,547">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="48,0"
+              EndConnector="90,0"
               Start="0,0"
-              End="40.5,0">
+              End="82.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="40.5,0" />
+                    End="82.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output1]"
+          TopLeft="550,189">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="59,0"
+              Start="0,0"
+              End="51.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="51.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13966,76 +13964,30 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="263,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 4)"
-          TopLeft="613,423" />
-        <NodeLayout
-          Size="222,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_najem_plan"
-          TopLeft="44,424" />
-        <NodeLayout
-          Size="184,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Nájem"
-          TopLeft="344,425" />
+        <EdgeLayout
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output11]"
+          TopLeft="222,38.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="117,0"
+              Start="0,0"
+              End="109.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="109.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output10]"
-          TopLeft="266,445.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="78,0"
-              Start="0,0"
-              End="70.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="70.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output11]"
-          TopLeft="528,445">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="85,0"
-              Start="0,0"
-              End="77.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="77.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="263,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 4)"
-          TopLeft="614,474" />
-        <NodeLayout
-          Size="252,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_najem_skutecnost"
-          TopLeft="45,475" />
-        <NodeLayout
-          Size="216,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Nájem"
-          TopLeft="345,476" />
-        <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output4]"
           TopLeft="297,496.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -14057,65 +14009,19 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output7]"
-          TopLeft="561,496">
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output9]"
+          TopLeft="266,445.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="53,0"
+              EndConnector="78,0"
               Start="0,0"
-              End="45.5,0">
+              End="70.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="45.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="263,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 5)"
-          TopLeft="615,525" />
-        <NodeLayout
-          Size="218,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_rezije_plan"
-          TopLeft="46,526" />
-        <NodeLayout
-          Size="179,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Režie"
-          TopLeft="346,527" />
-        <NodeLayout
-          Size="263,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 5)"
-          TopLeft="616,576" />
-        <NodeLayout
-          Size="245,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_rezie_skutecnost"
-          TopLeft="47,577" />
-        <NodeLayout
-          Size="213,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Režije"
-          TopLeft="347,578" />
-        <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output2]"
-          TopLeft="292,598.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="55,0"
-              Start="0,0"
-              End="47.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="47.5,0" />
+                    End="70.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14125,19 +14031,19 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output8]"
-          TopLeft="560,598">
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output8]"
+          TopLeft="253,88">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="56,0"
+              EndConnector="86,0"
               Start="0,0"
-              End="48.5,0">
+              End="78.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="48.5,0" />
+                    End="78.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14147,7 +14053,7 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output1]"
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output7]"
           TopLeft="264,547.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -14169,87 +14075,19 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output9]"
-          TopLeft="525,547">
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output6]"
+          TopLeft="292,598.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="90,0"
+              EndConnector="55,0"
               Start="0,0"
-              End="82.5,0">
+              End="47.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="82.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="263,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (1, 2, 1)"
-          TopLeft="608,116" />
-        <NodeLayout
-          Size="221,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_zdroje_plan"
-          TopLeft="39,117" />
-        <NodeLayout
-          Size="178,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Plán + Výdaj + Zdroj"
-          TopLeft="339,118" />
-        <NodeLayout
-          Size="263,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\MSSQL - F_UCETNI_OPERACE (2, 2, 1)"
-          TopLeft="609,167" />
-        <NodeLayout
-          Size="252,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Access - t_vydaje_zdroje_skutecnost"
-          TopLeft="40,168" />
-        <NodeLayout
-          Size="210,42"
-          Id="Package\Fill in F_UCETNI_OPERACE\Skutečnost + Výdaj + Zdroj"
-          TopLeft="340,169" />
-        <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output9]"
-          TopLeft="292,189.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="48,0"
-              Start="0,0"
-              End="40.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="40.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output10]"
-          TopLeft="550,189">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="59,0"
-              Start="0,0"
-              End="51.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="51.5,0" />
+                    End="47.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14260,6 +14098,28 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output5]"
+          TopLeft="259,241.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="83,0"
+              Start="0,0"
+              End="75.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="75.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output4]"
           TopLeft="260,138.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -14281,8 +14141,162 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output4]"
-          TopLeft="517,138">
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output3]"
+          TopLeft="297,394.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="48,0"
+              Start="0,0"
+              End="40.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="40.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output2]"
+          TopLeft="290,292.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="52,0"
+              Start="0,0"
+              End="44.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="44.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output1]"
+          TopLeft="266,344.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="79,0"
+              Start="0,0"
+              End="71.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="71.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[OLE DB Source Output]"
+          TopLeft="292,189.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="48,0"
+              Start="0,0"
+              End="40.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="40.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output11]"
+          TopLeft="531,344">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="80,0"
+              Start="0,0"
+              End="72.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="72.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output10]"
+          TopLeft="521,39.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="85,0"
+              Start="0,0"
+              End="77.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="77.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output9]"
+          TopLeft="552,88">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="55,0"
+              Start="0,0"
+              End="47.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="47.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Fill in F_UCETNI_OPERACE.Paths[Derived Column Output8]"
+          TopLeft="520,241">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -14621,41 +14635,19 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
     design-time-name="Package\For each t_kontrakty_snimek_*\Fill in F_KONTRAKT">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="188,42"
-          Id="Package\For each t_kontrakty_snimek_*\Fill in F_KONTRAKT\MSSQL - D_KONTRAKT"
-          TopLeft="425,294" />
+          Size="183,42"
+          Id="Package\For each t_kontrakty_snimek_*\Fill in F_KONTRAKT\t_kontrakty_snimek_*"
+          TopLeft="432,90" />
         <NodeLayout
           Size="376,42"
           Id="Package\For each t_kontrakty_snimek_*\Fill in F_KONTRAKT\New columns POCET_DNI_KONTRAKT and VYNOS_KONTRAKT"
           TopLeft="330,185" />
         <NodeLayout
-          Size="183,42"
-          Id="Package\For each t_kontrakty_snimek_*\Fill in F_KONTRAKT\t_kontrakty_snimek_*"
-          TopLeft="432,90" />
-        <EdgeLayout
-          Id="Package\For each t_kontrakty_snimek_*\Fill in F_KONTRAKT.Paths[Flat File Source Output]"
-          TopLeft="520.75,132">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,53"
-              Start="0,0"
-              End="0,45.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,45.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="188,42"
+          Id="Package\For each t_kontrakty_snimek_*\Fill in F_KONTRAKT\MSSQL - D_KONTRAKT"
+          TopLeft="425,294" />
         <EdgeLayout
           Id="Package\For each t_kontrakty_snimek_*\Fill in F_KONTRAKT.Paths[Derived Column Output]"
           TopLeft="518.5,227">
@@ -14675,7 +14667,33 @@ WHERE        ([Převodník$].F7 LIKE 'CZ0___')</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\For each t_kontrakty_snimek_*\Fill in F_KONTRAKT.Paths[Flat File Source Output]"
+          TopLeft="520.75,132">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,53"
+              Start="0,0"
+              End="0,45.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

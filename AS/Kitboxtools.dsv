@@ -1,0 +1,456 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3530b0b4-d796-4829-b6b9-8a6cfc0b91be" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Kitboxtools</ID>
+  <Name>Kitboxtools</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Kitboxtools</DataSourceID>
+  <Schema>
+    <xs:schema id="Kitboxtools" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Kitboxtools" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="dc459792-08b2-4c8f-acab-3fd2efe3588a">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_D_DATUM" msprop:design-time-name="c1f97a34-fee5-4437-9c8e-4c7216d6dfd3" msprop:DbTableName="D_DATUM" msprop:FriendlyName="D_DATUM" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DATUM" msprop:design-time-name="0474323b-aaa5-4360-843e-0cbcedd82dff" msprop:DbColumnName="DATUM" msprop:FriendlyName="DATUM" type="xs:dateTime" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_D_DRUH_UCETNI_OPERACE" msprop:design-time-name="16c06cb2-751a-4797-ac1e-999544541fd1" msprop:DbTableName="D_DRUH_UCETNI_OPERACE" msprop:FriendlyName="D_DRUH_UCETNI_OPERACE" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_DRUH_UCETNI_OPERACE" msprop:design-time-name="89c4bf71-5d8d-431a-b3c1-f9fcd434e13d" msprop:DbColumnName="ID_DRUH_UCETNI_OPERACE" msprop:FriendlyName="ID_DRUH_UCETNI_OPERACE" type="xs:int" />
+                  <xs:element name="NAZEV_DRUH_UCETNI_OPERACE" msprop:design-time-name="e8db0505-d5aa-4171-ac20-c4a7151c02a0" msprop:DbColumnName="NAZEV_DRUH_UCETNI_OPERACE" msprop:FriendlyName="NAZEV_DRUH_UCETNI_OPERACE">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_D_FINANCNI_REALIZACE" msprop:design-time-name="08197f8f-ed3c-449e-a510-85071bbbebaa" msprop:DbTableName="D_FINANCNI_REALIZACE" msprop:FriendlyName="D_FINANCNI_REALIZACE" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_FINANCNI_REALIZACE" msprop:design-time-name="65c6e93c-e798-4493-a600-c1663e6bd0a3" msprop:DbColumnName="ID_FINANCNI_REALIZACE" msprop:FriendlyName="ID_FINANCNI_REALIZACE" type="xs:int" />
+                  <xs:element name="NAZEV_FINANCNI_REALIZACE" msprop:design-time-name="5a84b7cb-b954-4198-bac7-1b1f29bf4603" msprop:DbColumnName="NAZEV_FINANCNI_REALIZACE" msprop:FriendlyName="NAZEV_FINANCNI_REALIZACE">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_D_FUNKCE_ZAMESTNANEC" msprop:design-time-name="f729d9c7-29d9-47f9-b9d7-f5cd0dc0267b" msprop:DbTableName="D_FUNKCE_ZAMESTNANEC" msprop:FriendlyName="D_FUNKCE_ZAMESTNANEC" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_FUNKCE_ZAMESTNANEC" msprop:design-time-name="e5b8ea97-8733-4479-ac43-c569a30a7941" msprop:DbColumnName="ID_FUNKCE_ZAMESTNANEC" msprop:FriendlyName="ID_FUNKCE_ZAMESTNANEC" type="xs:int" />
+                  <xs:element name="NAZEV_FUNKCE_ZAMESTNANEC" msprop:design-time-name="d1717bce-32f0-43aa-b329-b88416ec2df2" msprop:DbColumnName="NAZEV_FUNKCE_ZAMESTNANEC" msprop:FriendlyName="NAZEV_FUNKCE_ZAMESTNANEC">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_D_KATEGORIE_ZAKAZNIK" msprop:design-time-name="eb230687-5da5-43b0-b428-89c70629b526" msprop:DbTableName="D_KATEGORIE_ZAKAZNIK" msprop:FriendlyName="D_KATEGORIE_ZAKAZNIK" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_KATEGORIE_ZAKAZNIK" msprop:design-time-name="ad53006d-d02f-445b-aecd-8896478a2849" msprop:DbColumnName="ID_KATEGORIE_ZAKAZNIK" msprop:FriendlyName="ID_KATEGORIE_ZAKAZNIK" type="xs:int" />
+                  <xs:element name="NAZEV_KATEGORIE_ZAKAZNIK" msprop:design-time-name="d5eb9527-a124-47c0-b076-44c90266deda" msprop:DbColumnName="NAZEV_KATEGORIE_ZAKAZNIK" msprop:FriendlyName="NAZEV_KATEGORIE_ZAKAZNIK">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SLEVA_KATEGORIE_ZAKAZNIK" msprop:design-time-name="ba0147f4-6b86-4a47-bd1e-cfced27346e7" msprop:DbColumnName="SLEVA_KATEGORIE_ZAKAZNIK" msprop:FriendlyName="SLEVA_KATEGORIE_ZAKAZNIK" type="xs:double" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_D_KRAJ" msprop:design-time-name="37bec46f-100a-408c-ad3f-027c9a522aa5" msprop:DbTableName="D_KRAJ" msprop:FriendlyName="D_KRAJ" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_KRAJ" msprop:design-time-name="ccf9fb67-6062-4d88-8bf6-0596cb0fe44d" msprop:DbColumnName="ID_KRAJ" msprop:FriendlyName="ID_KRAJ">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NAZEV_KRAJ" msprop:design-time-name="3caae8b2-fc53-4ffb-bac0-75d8e609f996" msprop:DbColumnName="NAZEV_KRAJ" msprop:FriendlyName="NAZEV_KRAJ">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_D_OKRES" msprop:design-time-name="8854aa54-0a35-4857-9ffc-bbf370f03b7a" msprop:DbTableName="D_OKRES" msprop:FriendlyName="D_OKRES" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_OKRES" msprop:design-time-name="b657053e-76ad-4731-884f-aaf52e8a8254" msprop:DbColumnName="ID_OKRES" msprop:FriendlyName="ID_OKRES">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ID_KRAJ" msprop:design-time-name="cb77afe9-205c-410f-bf18-715cfd2577b0" msprop:DbColumnName="ID_KRAJ" msprop:FriendlyName="ID_KRAJ">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NAZEV_OKRES" msprop:design-time-name="e0819c64-80d6-443a-bf59-a9fcabb0352f" msprop:DbColumnName="NAZEV_OKRES" msprop:FriendlyName="NAZEV_OKRES">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_D_POBOCKA" msprop:design-time-name="15dc93ba-042d-4ceb-93e1-95459ee60040" msprop:DbTableName="D_POBOCKA" msprop:FriendlyName="D_POBOCKA" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_POBOCKA" msprop:design-time-name="78f78d48-d870-47f7-a828-8dd714aeb8fe" msprop:DbColumnName="ID_POBOCKA" msprop:FriendlyName="ID_POBOCKA" type="xs:int" />
+                  <xs:element name="ID_PSC" msprop:design-time-name="28babf3b-f174-4b85-8f49-d0cb88575108" msprop:DbColumnName="ID_PSC" msprop:FriendlyName="ID_PSC" type="xs:decimal" />
+                  <xs:element name="NAZEV_POBOCKA" msprop:design-time-name="010e3b94-3ebf-40eb-a6f3-a0ef275700b8" msprop:DbColumnName="NAZEV_POBOCKA" msprop:FriendlyName="NAZEV_POBOCKA">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_D_PSC" msprop:design-time-name="7fdca274-1cf0-4a2d-a95c-2e5de1ed5b1b" msprop:DbTableName="D_PSC" msprop:FriendlyName="D_PSC" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_PSC" msprop:design-time-name="566f09cd-512e-44a4-ad27-6b4bcc1af4be" msprop:DbColumnName="ID_PSC" msprop:FriendlyName="ID_PSC" type="xs:decimal" />
+                  <xs:element name="ID_OKRES" msprop:design-time-name="182b813b-f232-4107-b768-c9e1aef66b3f" msprop:DbColumnName="ID_OKRES" msprop:FriendlyName="ID_OKRES">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="OBEC" msprop:design-time-name="20e76269-8650-48d1-b26c-8223b5d40167" msprop:DbColumnName="OBEC" msprop:FriendlyName="OBEC">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_D_TYP_UCETNI_OPERACE" msprop:design-time-name="81a7d59f-f299-4553-9d6d-d348ba558f89" msprop:DbTableName="D_TYP_UCETNI_OPERACE" msprop:FriendlyName="D_TYP_UCETNI_OPERACE" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_TYP_UCETNI_OPERACE" msprop:design-time-name="af38da05-ad7a-40a6-addb-7b8b5353773f" msprop:DbColumnName="ID_TYP_UCETNI_OPERACE" msprop:FriendlyName="ID_TYP_UCETNI_OPERACE" type="xs:int" />
+                  <xs:element name="NAZEV_TYP_UCETNI_OPERACE" msprop:design-time-name="c231bb9a-abdb-4b6b-930b-5a1776327818" msprop:DbColumnName="NAZEV_TYP_UCETNI_OPERACE" msprop:FriendlyName="NAZEV_TYP_UCETNI_OPERACE">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_D_TYP_ZDROJ" msprop:design-time-name="a92ce7c4-e33c-4687-8c09-c668b743ec39" msprop:DbTableName="D_TYP_ZDROJ" msprop:FriendlyName="D_TYP_ZDROJ" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_TYP_ZDROJ" msprop:design-time-name="cb44b4f8-1311-44cb-8f01-2b9e2ab66639" msprop:DbColumnName="ID_TYP_ZDROJ" msprop:FriendlyName="ID_TYP_ZDROJ" type="xs:int" />
+                  <xs:element name="NAZEV_TYP_ZDROJ" msprop:design-time-name="ebb4a660-9d38-4533-a0e1-5d1a21412f02" msprop:DbColumnName="NAZEV_TYP_ZDROJ" msprop:FriendlyName="NAZEV_TYP_ZDROJ">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_D_ZAKAZNIK" msprop:design-time-name="e39fd313-aac8-4576-abe2-283dbc5f75d0" msprop:DbTableName="D_ZAKAZNIK" msprop:FriendlyName="D_ZAKAZNIK" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_ZAKAZNIK" msprop:design-time-name="8956a7da-a392-4e6d-8c09-0a010cdfb58c" msprop:DbColumnName="ID_ZAKAZNIK" msprop:FriendlyName="ID_ZAKAZNIK" type="xs:int" />
+                  <xs:element name="ID_PSC" msprop:design-time-name="9af2a705-e7c3-4a0d-8e06-3c50a19aa8d7" msprop:DbColumnName="ID_PSC" msprop:FriendlyName="ID_PSC" type="xs:decimal" />
+                  <xs:element name="ID_KATEGORIE_ZAKAZNIK" msprop:design-time-name="38f3d5bf-6c89-45ad-880a-cc5c4190abff" msprop:DbColumnName="ID_KATEGORIE_ZAKAZNIK" msprop:FriendlyName="ID_KATEGORIE_ZAKAZNIK" type="xs:int" />
+                  <xs:element name="ID_ZAMESTNANEC" msprop:design-time-name="f9bdcf8f-557e-46b8-9957-57c070dc45ff" msprop:DbColumnName="ID_ZAMESTNANEC" msprop:FriendlyName="ID_ZAMESTNANEC" type="xs:int" />
+                  <xs:element name="ICO_ZAKAZNIK" msprop:design-time-name="bf824700-4206-4fa7-b308-0a17d1a94003" msprop:DbColumnName="ICO_ZAKAZNIK" msprop:FriendlyName="ICO_ZAKAZNIK" type="xs:int" />
+                  <xs:element name="NAZEV_ZAKAZNIK" msprop:design-time-name="a9eba08b-bafe-4467-8721-b42358ff0314" msprop:DbColumnName="NAZEV_ZAKAZNIK" msprop:FriendlyName="NAZEV_ZAKAZNIK">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_D_ZAMESTNANEC" msprop:design-time-name="1d109b90-76e9-4305-adcf-e1a231b1cb89" msprop:DbTableName="D_ZAMESTNANEC" msprop:FriendlyName="D_ZAMESTNANEC" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_ZAMESTNANEC" msprop:design-time-name="d2631475-a79c-4aa4-abbe-46dc62f53a95" msprop:DbColumnName="ID_ZAMESTNANEC" msprop:FriendlyName="ID_ZAMESTNANEC" type="xs:int" />
+                  <xs:element name="ID_POBOCKA" msprop:design-time-name="9c53ba67-91c8-45e5-9fcc-0f4f56bb3cf3" msprop:DbColumnName="ID_POBOCKA" msprop:FriendlyName="ID_POBOCKA" type="xs:int" />
+                  <xs:element name="ID_FUNKCE_ZAMESTNANEC" msprop:design-time-name="2b93c79b-6f81-4fbc-9a04-dcb1bd8442d8" msprop:DbColumnName="ID_FUNKCE_ZAMESTNANEC" msprop:FriendlyName="ID_FUNKCE_ZAMESTNANEC" type="xs:int" />
+                  <xs:element name="JMENO_ZAMESTNANEC" msprop:design-time-name="c3bf4731-5769-43ef-816a-22b1635dd9b7" msprop:DbColumnName="JMENO_ZAMESTNANEC" msprop:FriendlyName="JMENO_ZAMESTNANEC">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="PRIJMENI_ZAMESTNANEC" msprop:design-time-name="cb13daea-adfc-4fe2-89a2-7eecc6eab40c" msprop:DbColumnName="PRIJMENI_ZAMESTNANEC" msprop:FriendlyName="PRIJMENI_ZAMESTNANEC">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_D_ZDROJ" msprop:design-time-name="e3b48289-098b-4c06-b30f-ab11def6e329" msprop:DbTableName="D_ZDROJ" msprop:FriendlyName="D_ZDROJ" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_ZDROJ" msprop:design-time-name="c41267c8-2a86-4574-bba8-b26b6698e7f1" msprop:DbColumnName="ID_ZDROJ" msprop:FriendlyName="ID_ZDROJ" type="xs:int" />
+                  <xs:element name="ID_TYP_ZDROJ" msprop:design-time-name="9f5fa62f-0d0e-4d0b-bfb6-d2e0f1cc64b7" msprop:DbColumnName="ID_TYP_ZDROJ" msprop:FriendlyName="ID_TYP_ZDROJ" type="xs:int" />
+                  <xs:element name="NAZEV_ZDROJ" msprop:design-time-name="cfc1edb4-7d81-48df-adc5-85457a39afda" msprop:DbColumnName="NAZEV_ZDROJ" msprop:FriendlyName="NAZEV_ZDROJ">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_F_KONTRAKT" msprop:design-time-name="bc9037f8-08db-4d52-a87b-54452cb65585" msprop:DbTableName="F_KONTRAKT" msprop:FriendlyName="F_KONTRAKT" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_KONTRAKT" msprop:design-time-name="0a1953f8-1552-4e8a-a55b-cb36d3ae0743" msprop:DbColumnName="ID_KONTRAKT" msprop:FriendlyName="ID_KONTRAKT" type="xs:int" />
+                  <xs:element name="CENA_KONTRAKT" msprop:design-time-name="c70633bf-18ec-4be4-a605-9d84840847ac" msprop:DbColumnName="CENA_KONTRAKT" msprop:FriendlyName="CENA_KONTRAKT" type="xs:decimal" />
+                  <xs:element name="NAKLAD_KONTRAKT" msprop:design-time-name="63ff1400-6a69-4f55-9881-e2f2e1337b67" msprop:DbColumnName="NAKLAD_KONTRAKT" msprop:FriendlyName="NAKLAD_KONTRAKT" type="xs:decimal" />
+                  <xs:element name="VYNOS_KONTRAKT" msprop:design-time-name="5c3e6a6b-ac75-4e80-b2a3-f95e42f66f1e" msprop:DbColumnName="VYNOS_KONTRAKT" msprop:FriendlyName="VYNOS_KONTRAKT" type="xs:decimal" />
+                  <xs:element name="OD_KONTRAKT" msprop:design-time-name="7b56e988-1697-43a9-9aac-43a3a399a77c" msprop:DbColumnName="OD_KONTRAKT" msprop:FriendlyName="OD_KONTRAKT" type="xs:dateTime" />
+                  <xs:element name="DO_KONTRAKT" msprop:design-time-name="3d9ce930-b3b7-4c8b-a29a-42f371b3c065" msprop:DbColumnName="DO_KONTRAKT" msprop:FriendlyName="DO_KONTRAKT" type="xs:dateTime" />
+                  <xs:element name="POCET_DNI_KONTRAKT" msprop:design-time-name="d89a5b8c-e699-4c59-a2c9-e93341fe375a" msprop:DbColumnName="POCET_DNI_KONTRAKT" msprop:FriendlyName="POCET_DNI_KONTRAKT" type="xs:int" />
+                  <xs:element name="ID_ZAKAZNIK" msprop:design-time-name="771c4bd4-0a16-41cf-a093-83b4850649d6" msprop:DbColumnName="ID_ZAKAZNIK" msprop:FriendlyName="ID_ZAKAZNIK" type="xs:int" />
+                  <xs:element name="ID_ZDROJ" msprop:design-time-name="7267c4ab-f0d4-46eb-ac52-8723b8049568" msprop:DbColumnName="ID_ZDROJ" msprop:FriendlyName="ID_ZDROJ" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_F_UCETNI_OPERACE" msprop:design-time-name="a4fa2bc9-c95b-441b-aec5-2693d725364d" msprop:DbTableName="F_UCETNI_OPERACE" msprop:FriendlyName="F_UCETNI_OPERACE" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_UCETNI_OPERACE" msprop:design-time-name="0ee804b0-e69a-4d69-add6-3380ad441b73" msprop:DbColumnName="ID_UCETNI_OPERACE" msprop:FriendlyName="ID_UCETNI_OPERACE" type="xs:int" />
+                  <xs:element name="DATUM" msprop:design-time-name="59140af2-6cf2-4aca-b238-27ddd2457a43" msprop:DbColumnName="DATUM" msprop:FriendlyName="DATUM" type="xs:dateTime" />
+                  <xs:element name="CASTKA" msprop:design-time-name="d9ab1833-21b2-4bda-b8a0-7251046c0b25" msprop:DbColumnName="CASTKA" msprop:FriendlyName="CASTKA" type="xs:decimal" />
+                  <xs:element name="ID_FINANCNI_REALIZACE" msprop:design-time-name="d96cb90e-b518-4292-b382-da878e174c9b" msprop:DbColumnName="ID_FINANCNI_REALIZACE" msprop:FriendlyName="ID_FINANCNI_REALIZACE" type="xs:int" />
+                  <xs:element name="ID_TYP_UCETNI_OPERACE" msprop:design-time-name="dbc89932-b990-4345-adcb-4730ff3c620d" msprop:DbColumnName="ID_TYP_UCETNI_OPERACE" msprop:FriendlyName="ID_TYP_UCETNI_OPERACE" type="xs:int" />
+                  <xs:element name="ID_DRUH_UCETNI_OPERACE" msprop:design-time-name="7db49cfc-c627-4ac2-ab0c-4509114d6d34" msprop:DbColumnName="ID_DRUH_UCETNI_OPERACE" msprop:FriendlyName="ID_DRUH_UCETNI_OPERACE" type="xs:int" />
+                  <xs:element name="ID_KONTRAKT" msprop:design-time-name="35bba48f-d421-44f0-990a-04044efc70fe" msprop:DbColumnName="ID_KONTRAKT" msprop:FriendlyName="ID_KONTRAKT" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_ZDROJ" msprop:design-time-name="be0e690b-84e9-416e-bd0d-45958d4e0855" msprop:DbColumnName="ID_ZDROJ" msprop:FriendlyName="ID_ZDROJ" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_ZAMESTNANEC" msprop:design-time-name="8a81a5ea-3758-44f4-a222-a4583126bc41" msprop:DbColumnName="ID_ZAMESTNANEC" msprop:FriendlyName="ID_ZAMESTNANEC" type="xs:int" minOccurs="0" />
+                  <xs:element name="ID_POBOCKA" msprop:design-time-name="24d6d720-d1ec-4bdd-abad-a1d14c327433" msprop:DbColumnName="ID_POBOCKA" msprop:FriendlyName="ID_POBOCKA" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_DATUM" />
+          <xs:field xpath="DATUM" />
+        </xs:unique>
+        <xs:unique name="dbo_D_DRUH_UCETNI_OPERACE_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_DRUH_UCETNI_OPERACE" />
+          <xs:field xpath="ID_DRUH_UCETNI_OPERACE" />
+        </xs:unique>
+        <xs:unique name="dbo_D_FINANCNI_REALIZACE_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_FINANCNI_REALIZACE" />
+          <xs:field xpath="ID_FINANCNI_REALIZACE" />
+        </xs:unique>
+        <xs:unique name="dbo_D_FUNKCE_ZAMESTNANEC_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_FUNKCE_ZAMESTNANEC" />
+          <xs:field xpath="ID_FUNKCE_ZAMESTNANEC" />
+        </xs:unique>
+        <xs:unique name="dbo_D_KATEGORIE_ZAKAZNIK_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_KATEGORIE_ZAKAZNIK" />
+          <xs:field xpath="ID_KATEGORIE_ZAKAZNIK" />
+        </xs:unique>
+        <xs:unique name="dbo_D_KRAJ_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_KRAJ" />
+          <xs:field xpath="ID_KRAJ" />
+        </xs:unique>
+        <xs:unique name="dbo_D_OKRES_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_OKRES" />
+          <xs:field xpath="ID_OKRES" />
+        </xs:unique>
+        <xs:unique name="dbo_D_POBOCKA_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_POBOCKA" />
+          <xs:field xpath="ID_POBOCKA" />
+        </xs:unique>
+        <xs:unique name="dbo_D_PSC_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_PSC" />
+          <xs:field xpath="ID_PSC" />
+        </xs:unique>
+        <xs:unique name="dbo_D_TYP_UCETNI_OPERACE_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_TYP_UCETNI_OPERACE" />
+          <xs:field xpath="ID_TYP_UCETNI_OPERACE" />
+        </xs:unique>
+        <xs:unique name="dbo_D_TYP_ZDROJ_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_TYP_ZDROJ" />
+          <xs:field xpath="ID_TYP_ZDROJ" />
+        </xs:unique>
+        <xs:unique name="dbo_D_ZAKAZNIK_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_ZAKAZNIK" />
+          <xs:field xpath="ID_ZAKAZNIK" />
+        </xs:unique>
+        <xs:unique name="dbo_D_ZAMESTNANEC_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_ZAMESTNANEC" />
+          <xs:field xpath="ID_ZAMESTNANEC" />
+        </xs:unique>
+        <xs:unique name="dbo_D_ZDROJ_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_D_ZDROJ" />
+          <xs:field xpath="ID_ZDROJ" />
+        </xs:unique>
+        <xs:unique name="dbo_F_KONTRAKT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_F_KONTRAKT" />
+          <xs:field xpath="ID_KONTRAKT" />
+        </xs:unique>
+        <xs:unique name="dbo_F_UCETNI_OPERACE_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_F_UCETNI_OPERACE" />
+          <xs:field xpath="ID_UCETNI_OPERACE" />
+        </xs:unique>
+        <xs:keyref name="FK_F_UCETNI_UCETNI_OP_D_TYP_UC" refer="dbo_D_TYP_UCETNI_OPERACE_Constraint1">
+          <xs:selector xpath=".//dbo_F_UCETNI_OPERACE" />
+          <xs:field xpath="ID_TYP_UCETNI_OPERACE" />
+        </xs:keyref>
+        <xs:keyref name="FK_F_UCETNI_UCETNI_OP_D_DRUH_U" refer="dbo_D_DRUH_UCETNI_OPERACE_Constraint1">
+          <xs:selector xpath=".//dbo_F_UCETNI_OPERACE" />
+          <xs:field xpath="ID_DRUH_UCETNI_OPERACE" />
+        </xs:keyref>
+        <xs:keyref name="FK_F_UCETNI_UCETNI_OP_D_POBOCK" refer="dbo_D_POBOCKA_Constraint1">
+          <xs:selector xpath=".//dbo_F_UCETNI_OPERACE" />
+          <xs:field xpath="ID_POBOCKA" />
+        </xs:keyref>
+        <xs:keyref name="FK_F_UCETNI_UCETNI_OP_D_ZDROJ" refer="dbo_D_ZDROJ_Constraint1">
+          <xs:selector xpath=".//dbo_F_UCETNI_OPERACE" />
+          <xs:field xpath="ID_ZDROJ" />
+        </xs:keyref>
+        <xs:keyref name="FK_F_UCETNI_UCETNI_OP_D_FINANC" refer="dbo_D_FINANCNI_REALIZACE_Constraint1">
+          <xs:selector xpath=".//dbo_F_UCETNI_OPERACE" />
+          <xs:field xpath="ID_FINANCNI_REALIZACE" />
+        </xs:keyref>
+        <xs:keyref name="FK_F_UCETNI_UCETNI_OP_F_KONTRA" refer="dbo_F_KONTRAKT_Constraint1">
+          <xs:selector xpath=".//dbo_F_UCETNI_OPERACE" />
+          <xs:field xpath="ID_KONTRAKT" />
+        </xs:keyref>
+        <xs:keyref name="FK_F_UCETNI_UCETNI_OP_D_DATUM" refer="Constraint1">
+          <xs:selector xpath=".//dbo_F_UCETNI_OPERACE" />
+          <xs:field xpath="DATUM" />
+        </xs:keyref>
+        <xs:keyref name="FK_F_UCETNI_UCETNI_OP_D_ZAMEST" refer="dbo_D_ZAMESTNANEC_Constraint1">
+          <xs:selector xpath=".//dbo_F_UCETNI_OPERACE" />
+          <xs:field xpath="ID_ZAMESTNANEC" />
+        </xs:keyref>
+        <xs:keyref name="FK_F_KONTRA_KONTRAKT__D_ZDROJ" refer="dbo_D_ZDROJ_Constraint1">
+          <xs:selector xpath=".//dbo_F_KONTRAKT" />
+          <xs:field xpath="ID_ZDROJ" />
+        </xs:keyref>
+        <xs:keyref name="FK_F_KONTRA_KONTRAKT__D_ZAKAZN" refer="dbo_D_ZAKAZNIK_Constraint1">
+          <xs:selector xpath=".//dbo_F_KONTRAKT" />
+          <xs:field xpath="ID_ZAKAZNIK" />
+        </xs:keyref>
+        <xs:keyref name="FK_D_ZDROJ_ZDROJ_JE__D_TYP_ZD" refer="dbo_D_TYP_ZDROJ_Constraint1">
+          <xs:selector xpath=".//dbo_D_ZDROJ" />
+          <xs:field xpath="ID_TYP_ZDROJ" />
+        </xs:keyref>
+        <xs:keyref name="FK_D_ZAMEST_ZAMESTNAN_D_POBOCK" refer="dbo_D_POBOCKA_Constraint1">
+          <xs:selector xpath=".//dbo_D_ZAMESTNANEC" />
+          <xs:field xpath="ID_POBOCKA" />
+        </xs:keyref>
+        <xs:keyref name="FK_D_ZAMEST_ZAMESTNAN_D_FUNKCE" refer="dbo_D_FUNKCE_ZAMESTNANEC_Constraint1">
+          <xs:selector xpath=".//dbo_D_ZAMESTNANEC" />
+          <xs:field xpath="ID_FUNKCE_ZAMESTNANEC" />
+        </xs:keyref>
+        <xs:keyref name="FK_D_ZAKAZN_ZAMESTNAN_D_ZAMEST" refer="dbo_D_ZAMESTNANEC_Constraint1">
+          <xs:selector xpath=".//dbo_D_ZAKAZNIK" />
+          <xs:field xpath="ID_ZAMESTNANEC" />
+        </xs:keyref>
+        <xs:keyref name="FK_D_ZAKAZN_ZAKAZNIK__D_KATEGO" refer="dbo_D_KATEGORIE_ZAKAZNIK_Constraint1">
+          <xs:selector xpath=".//dbo_D_ZAKAZNIK" />
+          <xs:field xpath="ID_KATEGORIE_ZAKAZNIK" />
+        </xs:keyref>
+        <xs:keyref name="FK_D_ZAKAZN_ZAKAZNIK__D_PSC" refer="dbo_D_PSC_Constraint1">
+          <xs:selector xpath=".//dbo_D_ZAKAZNIK" />
+          <xs:field xpath="ID_PSC" />
+        </xs:keyref>
+        <xs:keyref name="FK_D_PSC_PSC_NALEZ_D_OKRES" refer="dbo_D_OKRES_Constraint1">
+          <xs:selector xpath=".//dbo_D_PSC" />
+          <xs:field xpath="ID_OKRES" />
+        </xs:keyref>
+        <xs:keyref name="FK_D_POBOCK_POBOCKA_S_D_PSC" refer="dbo_D_PSC_Constraint1">
+          <xs:selector xpath=".//dbo_D_POBOCKA" />
+          <xs:field xpath="ID_PSC" />
+        </xs:keyref>
+        <xs:keyref name="FK_D_OKRES_OKRES_LEZ_D_KRAJ" refer="dbo_D_KRAJ_Constraint1">
+          <xs:selector xpath=".//dbo_D_OKRES" />
+          <xs:field xpath="ID_KRAJ" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Kitboxtools xmlns="" />
+  </Schema>
+</DataSourceView>
