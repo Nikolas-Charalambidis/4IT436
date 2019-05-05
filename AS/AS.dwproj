@@ -8,32 +8,84 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Cube1.cube</Name>
-      <FullPath>Cube1.cube</FullPath>
+      <Name>Kontrakty.cube</Name>
+      <FullPath>Kontrakty.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Cube1.partitions</Name>
-          <FullPath>Cube1.partitions</FullPath>
+          <Name>Kontrakty.partitions</Name>
+          <FullPath>Kontrakty.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Transakce.cube</Name>
+      <FullPath>Transakce.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Transakce.partitions</Name>
+          <FullPath>Transakce.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>21-Zdroj.cube</Name>
+      <FullPath>21-Zdroj.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>21-Zdroj.partitions</Name>
+          <FullPath>21-Zdroj.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>D_KATEGORIE_ZAKAZNIK.dim</Name>
-      <FullPath>D_KATEGORIE_ZAKAZNIK.dim</FullPath>
+      <Name>Druh účetní operace.dim</Name>
+      <FullPath>Druh účetní operace.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>D KATEGORIE ZAKAZNIK.dim</Name>
-      <FullPath>D KATEGORIE ZAKAZNIK.dim</FullPath>
+      <Name>Finanční realizace.dim</Name>
+      <FullPath>Finanční realizace.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>D ZAKAZNIK.dim</Name>
-      <FullPath>D ZAKAZNIK.dim</FullPath>
+      <Name>Lokalita.dim</Name>
+      <FullPath>Lokalita.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>D ZDROJ.dim</Name>
-      <FullPath>D ZDROJ.dim</FullPath>
+      <Name>Kategorie zákazníka.dim</Name>
+      <FullPath>Kategorie zákazníka.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Zaměstnanec.dim</Name>
+      <FullPath>Zaměstnanec.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Zákazník.dim</Name>
+      <FullPath>Zákazník.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Funkce zaměstnance.dim</Name>
+      <FullPath>Funkce zaměstnance.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Typ zdroje.dim</Name>
+      <FullPath>Typ zdroje.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Zdroj.dim</Name>
+      <FullPath>Zdroj.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Typ účetní operace.dim</Name>
+      <FullPath>Typ účetní operace.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Čas.dim</Name>
+      <FullPath>Čas.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Pobočka.dim</Name>
+      <FullPath>Pobočka.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

@@ -12,35 +12,93 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>D_KATEGORIE_ZAKAZNIK</ID>
+        <ID>D DRUH UCETNI OPERACE</ID>
+      </Dimension>
+      <Dimension>
+        <ID>D FINANCNI REALIZACE</ID>
+      </Dimension>
+      <Dimension>
+        <ID>D PSC</ID>
       </Dimension>
       <Dimension>
         <ID>D KATEGORIE ZAKAZNIK</ID>
       </Dimension>
       <Dimension>
+        <ID>D ZAMESTNANEC</ID>
+      </Dimension>
+      <Dimension>
         <ID>D ZAKAZNIK</ID>
+      </Dimension>
+      <Dimension>
+        <ID>D FUNKCE ZAMESTNANEC</ID>
+      </Dimension>
+      <Dimension>
+        <ID>D TYP ZDROJ</ID>
       </Dimension>
       <Dimension>
         <ID>D ZDROJ</ID>
       </Dimension>
+      <Dimension>
+        <ID>D TYP UCETNI OPERACE</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Čas</ID>
+      </Dimension>
+      <Dimension>
+        <ID>D POBOCKA 1</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>Cube1</ID>
+        <ID>Kontrakty</ID>
         <MeasureGroups>
-          <MeasureGroup>
-            <ID>D KATEGORIE ZAKAZNIK</ID>
-            <Partitions>
-              <Partition>
-                <ID>D KATEGORIE ZAKAZNIK</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
           <MeasureGroup>
             <ID>F KONTRAKT</ID>
             <Partitions>
               <Partition>
                 <ID>F KONTRAKT</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>F KONTRAKT 1</ID>
+            <Partitions>
+              <Partition>
+                <ID>F KONTRAKT</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Transakce</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>F UCETNI OPERACE</ID>
+            <Partitions>
+              <Partition>
+                <ID>F UCETNI OPERACE</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>21-Zdroj</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>F UCETNI OPERACE</ID>
+            <Partitions>
+              <Partition>
+                <ID>F UCETNI OPERACE</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>F UCETNI OPERACE 1</ID>
+            <Partitions>
+              <Partition>
+                <ID>F UCETNI OPERACE</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

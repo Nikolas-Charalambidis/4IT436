@@ -1,0 +1,1089 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="778e35f6-e342-4df3-b003-6e9b71828591" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Kontrakty</ID>
+  <Name>Kontrakty</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="48" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="1568" scrolltop="-1736" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="21325" y="13600" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="D_ZAMESTNANEC" left="20" top="10157" logicalid="24" controlid="1" masterid="0" hint1="0" hint2="0" width="5106" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000f21300004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_ZAMESTNANEC" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="D_OKRES" left="21094" top="6090" logicalid="25" controlid="2" masterid="0" hint1="0" hint2="0" width="3307" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000eb0c0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_OKRES" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="D_KATEGORIE_ZAKAZNIK" left="9114" top="25532" logicalid="26" controlid="3" masterid="0" hint1="0" hint2="0" width="5530" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00009a150000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_KATEGORIE_ZAKAZNIK" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="D_KRAJ" left="21226" top="10792" logicalid="27" controlid="4" masterid="0" hint1="0" hint2="0" width="3043" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000e30b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_KRAJ" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="D_PSC" left="15694" top="8229" logicalid="28" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_PSC" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="D_ZDROJ" left="17652" top="21677" logicalid="29" controlid="6" masterid="0" hint1="0" hint2="0" width="3334" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000060d0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_ZDROJ" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="D_POBOCKA" left="734" top="5455" logicalid="30" controlid="7" masterid="0" hint1="0" hint2="0" width="3678" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00005e0e0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_POBOCKA" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="D_ZAKAZNIK" left="9776" top="19560" logicalid="31" controlid="8" masterid="0" hint1="0" hint2="0" width="4868" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000004130000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_ZAKAZNIK" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="D_DATUM" left="3301" top="847" logicalid="32" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000af050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_DATUM" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="F_KONTRAKT" left="17044" top="14435" logicalid="33" controlid="10" masterid="0" hint1="0" hint2="0" width="4551" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c7110000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_F_KONTRAKT" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="D_TYP_ZDROJ" left="17322" top="26379" logicalid="34" controlid="11" masterid="0" hint1="0" hint2="0" width="3995" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00009b0f000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_TYP_ZDROJ" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="D_FUNKCE_ZAMESTNANEC" left="7526" top="10792" logicalid="35" controlid="12" masterid="0" hint1="0" hint2="0" width="5768" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008816000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_FUNKCE_ZAMESTNANEC" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4826" top="11332" logicalid="36" controlid="13" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_D_ZAMEST_ZAMESTNAN_D_FUNKCE]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="12" destid="1" sourceattachpoint="24" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7526" y="11731" />
+              <point x="5126" y="11731" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2174" top="7258" logicalid="37" controlid="14" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_D_ZAMEST_ZAMESTNAN_D_POBOCK]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="1" sourceattachpoint="7" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2573" y="7757" />
+              <point x="2573" y="10157" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2174" top="12807" logicalid="38" controlid="15" masterid="0" hint1="0" hint2="0" width="9236" height="7053" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_D_ZAKAZN_ZAMESTNAN_D_ZAMEST]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="8" sourceattachpoint="9" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2573" y="13306" />
+              <point x="2573" y="16433" />
+              <point x="11110" y="16433" />
+              <point x="11110" y="19560" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="22348" top="8092" logicalid="39" controlid="16" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_D_OKRES_OKRES_LEZ_D_KRAJ]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="22747" y="10792" />
+              <point x="22747" y="8392" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="18394" top="6842" logicalid="40" controlid="17" masterid="0" hint1="0" hint2="0" width="3000" height="2838" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_D_PSC_PSC_NALEZ_D_OKRES]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="12" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="21094" y="7241" />
+              <point x="19894" y="7241" />
+              <point x="19894" y="9380" />
+              <point x="18694" y="9380" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="11480" top="22832" logicalid="41" controlid="18" masterid="0" hint1="0" hint2="0" width="1030" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_D_ZAKAZN_ZAKAZNIK__D_KATEGO]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="8" sourceattachpoint="8" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11879" y="25532" />
+              <point x="11879" y="24332" />
+              <point x="12210" y="24332" />
+              <point x="12210" y="23132" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="12460" top="10032" logicalid="42" controlid="19" masterid="0" hint1="0" hint2="0" width="5134" height="9828" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_D_ZAKAZN_ZAKAZNIK__D_PSC]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="8" sourceattachpoint="5" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="17194" y="10531" />
+              <point x="17194" y="15045" />
+              <point x="12760" y="15045" />
+              <point x="12760" y="19560" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4112" top="6306" logicalid="43" controlid="20" masterid="0" hint1="0" hint2="0" width="11882" height="3474" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_D_POBOCK_POBOCKA_S_D_PSC]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="7" sourceattachpoint="12" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="15694" y="9380" />
+              <point x="10053" y="9380" />
+              <point x="10053" y="6606" />
+              <point x="4412" y="6606" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="18920" top="23679" logicalid="44" controlid="21" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_D_ZDROJ_ZDROJ_JE__D_TYP_ZD]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="11" destid="6" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="19319" y="26379" />
+              <point x="19319" y="23979" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="18920" top="18977" logicalid="45" controlid="22" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_F_KONTRA_KONTRAKT__D_ZDROJ]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="10" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="19319" y="21677" />
+              <point x="19319" y="19277" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="14344" top="16556" logicalid="46" controlid="23" masterid="0" hint1="0" hint2="0" width="3000" height="5190" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_F_KONTRA_KONTRAKT__D_ZAKAZN]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="10" sourceattachpoint="25" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="14644" y="21346" />
+              <point x="15844" y="21346" />
+              <point x="15844" y="16856" />
+              <point x="17044" y="16856" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>1568</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1736</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>847</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="524a7cac-dc1d-422b-beb6-548bc5f3f6aa">
+      <ID>D ZAKAZNIK</ID>
+      <Name>Zákazník</Name>
+      <DimensionID>D ZAKAZNIK</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5331e837-455c-49c9-85d1-dcfae08e775c">
+          <AttributeID>ID ZAKAZNIK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aeb3b950-aa9a-41e4-a291-db8d1e3a5bd1">
+          <AttributeID>ID PSC</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2a125d27-e643-4c4d-9021-a06916ec4ae1">
+          <AttributeID>ID KATEGORIE ZAKAZNIK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5ad41d74-25cd-467a-a06d-ea582fe0be77">
+          <AttributeID>ID ZAMESTNANEC</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b636a191-f0e3-43af-8c7c-3e8bf5027e92">
+          <AttributeID>ICO ZAKAZNIK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0a37737b-32e2-4e8b-8409-b4b3d300f9ea">
+          <AttributeID>NAZEV ZAKAZNIK</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b4eff442-5448-4efd-9457-dd8411c38f0b">
+      <ID>D ZDROJ</ID>
+      <Name>Zdroj</Name>
+      <DimensionID>D ZDROJ</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="953c46e9-2345-4c4d-8324-62a8b2467bf0">
+          <AttributeID>ID ZDROJ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="19c922d8-e58d-4a2f-93ae-bc3d6a4fdf03">
+          <AttributeID>ID TYP ZDROJ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fd72883a-f601-4753-98a9-ca5d80df5ecf">
+          <AttributeID>NAZEV ZDROJ</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="24ec7deb-0ce4-4bce-87c2-eee81c9263b7">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="7379ef55-e80a-484f-a246-a530df8b8021">
+      <ID>D TYP ZDROJ</ID>
+      <Name>Typ zdroje</Name>
+      <DimensionID>D TYP ZDROJ</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e6a43dab-8f07-4e44-8e41-cf41a484625d">
+          <AttributeID>ID TYP ZDROJ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d2b5e72c-212a-46dd-b9fc-c681d5c844c4">
+          <AttributeID>NAZEV TYP ZDROJ</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="4df5a5e5-d842-4657-9bd2-371e42a782e2">
+      <ID>D ZAMESTNANEC</ID>
+      <Name>Zaměstnanec</Name>
+      <DimensionID>D ZAMESTNANEC</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c480f502-0693-414f-a4a6-1a668531bd8d">
+          <AttributeID>ID ZAMESTNANEC</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ffddfef0-e2eb-486c-8e09-c142bb4642b7">
+          <AttributeID>ID FUNKCE ZAMESTNANEC</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="21ca5379-5e24-46eb-a21d-c2f661c6cbbe">
+          <AttributeID>ID POBOCKA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="01770d85-d256-485a-ac17-94a7847de48a">
+          <AttributeID>PRIJMENI ZAMESTNANEC</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="47c7a258-2792-4cac-91ad-d4876ccf1be6">
+      <ID>D FUNKCE ZAMESTNANEC</ID>
+      <Name>Funkce zaměstnance</Name>
+      <DimensionID>D FUNKCE ZAMESTNANEC</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="05117fd8-93f0-4ae8-aeb9-bcb236315fb9">
+          <AttributeID>ID FUNKCE ZAMESTNANEC</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="448ac297-7450-4178-a5d8-745221d7812d">
+          <AttributeID>NAZEV FUNKCE ZAMESTNANEC</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="63414c73-d2f0-4b68-bf28-3486ce334977">
+      <ID>D PSC</ID>
+      <Name>PSČ</Name>
+      <DimensionID>D PSC</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="20bf070b-3ad1-4b5d-bed8-b1c45b001e6b">
+          <AttributeID>ID PSC</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f0d468b3-854a-4509-b3ff-6befdff47c39">
+          <AttributeID>ID OKRES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eab168f3-d617-49f3-961d-cfb15353df53">
+          <AttributeID>ID KRAJ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1acc31f0-f587-43d3-b11d-0c614178df5a">
+          <AttributeID>NAZEV KRAJ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0974a7f3-1078-4722-abea-5bec3c04463c">
+          <AttributeID>NAZEV OKRES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="18910aaf-0ac5-4928-992a-4b674a54b94a">
+          <AttributeID>OBEC</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="0aedad7d-f615-4bbc-9ced-2a21a4a67a8b">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="d4304264-549e-47d4-b283-07eb13fb38fb">
+      <ID>D KATEGORIE ZAKAZNIK</ID>
+      <Name>Kategorie zákazníka</Name>
+      <DimensionID>D KATEGORIE ZAKAZNIK</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="975220e2-c876-497c-aafe-8afd0cf02587">
+          <AttributeID>ID KATEGORIE ZAKAZNIK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a96d6d6e-db8d-4c39-b869-a4013572983a">
+          <AttributeID>NAZEV KATEGORIE ZAKAZNIK</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="086f59dd-188a-4256-864c-97f50d512f25">
+      <ID>ID OKRES</ID>
+      <Name>ID OKRES</Name>
+      <DimensionID>D PSC</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2e477662-71c0-4456-9a51-e7d760088678">
+          <AttributeID>ID PSC</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2ed357a8-36dc-46ed-b5e7-e2986b919f1f">
+          <AttributeID>ID OKRES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3fbfe27a-e294-4647-a897-977ea44c8516">
+          <AttributeID>ID KRAJ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="34e92012-2e94-42ff-bac5-a95b85f3beb6">
+          <AttributeID>NAZEV KRAJ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b9d4ca10-145f-4dd0-8e69-dd5b4d7fc6e9">
+          <AttributeID>NAZEV OKRES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1fbd2acf-032f-4136-8826-0fd64ecdb202">
+          <AttributeID>OBEC</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="22cdaa7c-9cac-406f-a11a-a42da94bdc9d">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="74dbbff0-3cb1-4380-80bb-e7998be9bd47">
+      <ID>D ZAKAZNIK - ID PSC</ID>
+      <Name>D ZAKAZNIK - ID PSC</Name>
+      <DimensionID>D PSC</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ef70d4ad-98c1-4ab5-88c5-9111db4d3a8e">
+          <AttributeID>ID PSC</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6a58dca0-f4ad-4e38-bebb-f06e46e4c14f">
+          <AttributeID>ID OKRES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1ed5b381-f175-4e3d-96e8-531367cc1a37">
+          <AttributeID>ID KRAJ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b09809f2-c524-4322-a23e-4b3357746751">
+          <AttributeID>NAZEV KRAJ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5e5ea86d-5db0-45f4-9161-eb4cedff9e99">
+          <AttributeID>NAZEV OKRES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0d398fba-ef99-43ab-9de2-61715a256f9c">
+          <AttributeID>OBEC</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="b562e5cb-78cd-4409-96f4-429c343ee86b">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="a5d8418d-9e68-4476-a2d3-6201c82a69e9">
+      <ID>D ZAKAZNIK - ID ZAMESTNANEC - ID POBOCKA - ID PSC</ID>
+      <Name>D ZAKAZNIK - ID ZAMESTNANEC - ID POBOCKA - ID PSC</Name>
+      <DimensionID>D PSC</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="23132260-aefe-4004-97d5-a3bcc65ccd03">
+          <AttributeID>ID PSC</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="35b38343-c689-4b7e-962a-572886707562">
+          <AttributeID>ID OKRES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="12b77a4d-e319-4921-a67d-696969c3aa72">
+          <AttributeID>ID KRAJ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3e1dc741-a2dc-48cc-aec7-45dc2823b382">
+          <AttributeID>NAZEV KRAJ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="748fabdf-12fc-4e2f-8805-a3369ef564b0">
+          <AttributeID>NAZEV OKRES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="22f06445-cfcb-421c-8f9a-df572d24a903">
+          <AttributeID>OBEC</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="dcbf04c0-752d-4545-a860-9b2ac052701a">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="bd3f8f32-13d4-479f-a6b8-1ae05eab3f08">
+      <ID>D ZDROJ - ID TYP ZDROJ</ID>
+      <Name>D ZDROJ - ID TYP ZDROJ</Name>
+      <DimensionID>D TYP ZDROJ</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="da5504f4-3746-4ed9-9cf9-31738c569808">
+          <AttributeID>ID TYP ZDROJ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c9487b2c-28e8-4049-ab40-e8fcfc904095">
+          <AttributeID>NAZEV TYP ZDROJ</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="de3cec3f-9180-486a-a92a-8623ea0a2945">
+      <ID>D ZAMESTNANEC - ID POBOCKA - ID PSC</ID>
+      <Name>D ZAMESTNANEC - ID POBOCKA - ID PSC</Name>
+      <DimensionID>D PSC</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a82e7731-1088-4845-8417-3c4d881ca41c">
+          <AttributeID>ID PSC</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cfe28ed1-1699-417b-bb31-9309cd535766">
+          <AttributeID>ID OKRES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fae1b293-345f-4f9e-92fe-9a6324791076">
+          <AttributeID>ID KRAJ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="107fbc6c-5023-460c-9f55-cbe39cb58efc">
+          <AttributeID>NAZEV KRAJ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="db6d9215-bbd5-420e-a6ec-7e0d78b3c9ae">
+          <AttributeID>NAZEV OKRES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0d90db9c-220f-4b39-9225-68259c8009d0">
+          <AttributeID>OBEC</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="d64f6ea1-5d78-4fc3-b473-7fc17aa67d13">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="a199b664-efb1-4258-8e54-4b6c54c23088">
+      <ID>Čas</ID>
+      <Name>Čas</Name>
+      <DimensionID>Čas</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="77a20540-cf15-4a16-bd99-e12dbfe3f305">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b6e98602-801c-4d9a-850e-476fea6ac6de">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e9d39c3f-5eff-4333-b309-a5dee361acd2">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="87206f5f-2e28-455e-b23c-047fbc6e618e">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="68411f19-e110-4194-954a-2610b6d23eb6">
+          <AttributeID>Day Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="201e837a-155a-4807-a252-76dd4bd6a11e">
+          <AttributeID>Day Of Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="994a96de-1a21-4db2-b3e0-6cf871189faf">
+          <AttributeID>Day Of Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c55aa411-be1a-48bb-8786-a5b630c1b869">
+          <AttributeID>Month Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5b0800a8-7d1a-4279-aef8-901a68fd069f">
+          <AttributeID>Month Of Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="35a42966-5ddf-4df6-83aa-b7b5662c4121">
+          <AttributeID>Quarter Of Year</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="4368f7d8-0d9f-45ab-bf0e-004488480c47">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="57afd122-892f-418a-b560-adde22d5279c">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="8d804a24-8fd0-42dc-9117-7fa8660de6cb">
+      <ID>D POBOCKA 1</ID>
+      <Name>Pobočka</Name>
+      <DimensionID>D POBOCKA 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9de4d087-1577-4008-9a0e-d7ae0ef04b4e">
+          <AttributeID>ID POBOCKA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="72985010-336a-4c00-8ffe-d3f6ae8ffe11">
+          <AttributeID>NAZEV POBOCKA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d875f114-95ce-4150-ad43-0a9562cb6ec4">
+          <AttributeID>ID PSC</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b429d899-2431-4398-af27-71cffa78c264">
+          <AttributeID>OBEC</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="be1ece28-d174-42cc-b28a-987bac37f616">
+          <AttributeID>ID OKRES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d186ffb0-52e5-4e92-bf66-f648a0a2520e">
+          <AttributeID>NAZEV OKRES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="40431d17-8758-409e-ab53-e24658d09b22">
+          <AttributeID>ID KRAJ</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="640be528-4df6-4404-bece-f61c6e291e54">
+          <AttributeID>NAZEV KRAJ</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="9f373675-1123-4870-83c6-87898c6c248a">
+      <ID>F KONTRAKT</ID>
+      <Name>Kontrakt</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="e4b60179-93ee-49a6-8f40-73a164f40d4a">
+          <ID>CENA KONTRAKT</ID>
+          <Name>Cena</Name>
+          <Source dwd:design-time-name="46acbdc3-1398-4c75-9b9a-90713567749e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="81cfb1f1-3c2d-4e3e-bc65-402b92b8e0a6">
+              <TableID>dbo_F_KONTRAKT</TableID>
+              <ColumnID>CENA_KONTRAKT</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="843bf706-da52-4cc1-85fb-08d9382e06c2">
+          <ID>NAKLAD KONTRAKT</ID>
+          <Name>Náklady</Name>
+          <Source dwd:design-time-name="d3735993-1827-4053-84b7-5f669ef93e2e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="483a04dd-f1a5-4641-8836-add8f39f7734">
+              <TableID>dbo_F_KONTRAKT</TableID>
+              <ColumnID>NAKLAD_KONTRAKT</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1fbc9dc2-6baa-417e-837d-d78ef42ec5e0">
+          <ID>VYNOS KONTRAKT</ID>
+          <Name>Výnosy</Name>
+          <Source dwd:design-time-name="c5d515ed-7c56-45c7-ac8d-e24480188c98">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="098ace65-9f20-4015-855d-9f65c01969ed">
+              <TableID>dbo_F_KONTRAKT</TableID>
+              <ColumnID>VYNOS_KONTRAKT</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c7eec41c-aca8-415e-a29d-793d58a6da80">
+          <ID>F KONTRAKT Count</ID>
+          <Name>Počet</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="a850a84d-6e01-460d-9c3b-2eb0c0a26a04">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="2470c821-0b35-4138-8954-55f1a0239be7">
+              <TableID>dbo_F_KONTRAKT</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f5cafb4e-624b-4b5c-9adb-842aff5ab2e7">
+          <ID>POCET DNI KONTRAKT</ID>
+          <Name>Délka trvání</Name>
+          <Source dwd:design-time-name="d74269a3-5a86-40b0-a5c7-61a6f555b931">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a9f5d89b-4f7d-4cc8-91b1-95fbfcb0b65b">
+              <TableID>dbo_F_KONTRAKT</TableID>
+              <ColumnID>POCET_DNI_KONTRAKT</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e9dd7947-34d4-49e5-810e-4f608ea7646e">
+          <CubeDimensionID>D ZAKAZNIK</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="29af85b3-ea29-44f5-86e4-73f865a2503c">
+              <AttributeID>ID ZAKAZNIK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="25b45436-3657-43b6-a7d8-bd84793d3de6">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="256c4903-6aa0-42c0-84ad-8ed689fadfad">
+                    <TableID>dbo_F_KONTRAKT</TableID>
+                    <ColumnID>ID_ZAKAZNIK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="60cc225b-09d3-4798-9ebd-cf0dfd7f2312">
+          <CubeDimensionID>D ZDROJ</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="235fe6b9-f4e2-49b0-bc34-1c116e7af81a">
+              <AttributeID>ID ZDROJ</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c017be00-9ef0-4fa0-834f-5b157bed6180">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="00ce3f12-3e5e-4784-8806-9e0bfb33b4d4">
+                    <TableID>dbo_F_KONTRAKT</TableID>
+                    <ColumnID>ID_ZDROJ</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="d52db043-b2ed-464d-8ed1-578c0af23bf2">
+          <CubeDimensionID>D ZAKAZNIK - ID PSC</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="fef262cd-654b-4be8-9af4-6bc526070786">
+              <AttributeID>ID PSC</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>D ZAKAZNIK</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID PSC</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="594ff2c7-7975-4195-b155-e763e9756589">
+          <CubeDimensionID>D KATEGORIE ZAKAZNIK</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="df301097-2bcb-4161-ab27-72f58eda9dbf">
+              <AttributeID>ID KATEGORIE ZAKAZNIK</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>D ZAKAZNIK</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID KATEGORIE ZAKAZNIK</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="2dd9c7f7-1aa6-4292-909f-156b694b5fb6">
+          <CubeDimensionID>D ZAMESTNANEC</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="360e2041-2614-436e-a61a-4b16318f9695">
+              <AttributeID>ID ZAMESTNANEC</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>D ZAKAZNIK</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID ZAMESTNANEC</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="ce2adc91-4296-4d43-95ae-4c181aca9f66">
+          <CubeDimensionID>D FUNKCE ZAMESTNANEC</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f10ca46b-373d-4231-b82c-bb7fbb697e2f">
+              <AttributeID>ID FUNKCE ZAMESTNANEC</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>D ZAMESTNANEC</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID FUNKCE ZAMESTNANEC</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="6cfdd533-fb9a-4812-9b6a-c1251c3fe110">
+          <CubeDimensionID>D ZDROJ - ID TYP ZDROJ</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f9ed524f-0897-4092-8a8d-c14cf1970327">
+              <AttributeID>ID TYP ZDROJ</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>D ZDROJ</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID TYP ZDROJ</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7643b950-1bd8-4773-a575-5cee5a81e7ff">
+          <CubeDimensionID>Čas</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ab7d0299-e2e3-4453-b640-e7466188ed3f">
+              <AttributeID>Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ac6b396a-0fc0-4c10-8277-0037938583e8">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="05be6499-5225-4a5a-bd65-3a0935cde76a">
+                    <TableID>dbo_F_KONTRAKT</TableID>
+                    <ColumnID>OD_KONTRAKT</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="abe92566-3ac6-4b35-85a8-0da7da4a2b6f">
+      <ID>F KONTRAKT 1</ID>
+      <Name>Kontrakt - dny</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="90586e1a-1c35-4527-84b2-7c88cda686ba">
+          <ID>OD KONTRAKT Distinct Count</ID>
+          <Name>Počet dní</Name>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="5d1c1611-bb0e-4ece-acea-61947b8b9046">
+            <DataType>Date</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1269bcd8-c194-4cf1-b9fe-3eb485b3df77">
+              <TableID>dbo_F_KONTRAKT</TableID>
+              <ColumnID>OD_KONTRAKT</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="68b732b9-e74e-4421-8c66-6bba08c5b367">
+          <CubeDimensionID>D ZAKAZNIK</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cb1e9bdf-8372-4983-a290-c9f1d3d5bdeb">
+              <AttributeID>ID ZAKAZNIK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fe36e26d-cb62-4a9c-844f-d3927c3d14dd">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="88969d8f-d0de-489d-8358-3b005c3ebae6">
+                    <TableID>dbo_F_KONTRAKT</TableID>
+                    <ColumnID>ID_ZAKAZNIK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a1149e71-01fd-40f3-8d71-870d40972081">
+          <CubeDimensionID>D ZDROJ</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3e9d338b-dd20-4d8a-be06-3ae2cb5ee1e2">
+              <AttributeID>ID ZDROJ</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="74810b26-838e-4719-a70c-08c5ee6d4a7a">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c0e85394-44c9-460d-b553-ba802aa0df43">
+                    <TableID>dbo_F_KONTRAKT</TableID>
+                    <ColumnID>ID_ZDROJ</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="43730391-0d2a-4182-8641-52d66c3dda83">
+          <CubeDimensionID>D ZAKAZNIK - ID PSC</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="29d354d4-45f9-4e3d-9890-fadc7a2b2ce7">
+              <AttributeID>ID PSC</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>D ZAKAZNIK</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID PSC</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="bd67424b-a8a5-44d7-8d9e-7f91fc62c4c7">
+          <CubeDimensionID>D KATEGORIE ZAKAZNIK</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c6ca15b5-9fbb-40f7-b9a7-13e8985bdf8c">
+              <AttributeID>ID KATEGORIE ZAKAZNIK</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>D ZAKAZNIK</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID KATEGORIE ZAKAZNIK</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="51fd1c6a-071d-41c6-a610-1d7d9e25b237">
+          <CubeDimensionID>D ZAMESTNANEC</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2663035b-e38a-4a58-acd5-73b2c7e10496">
+              <AttributeID>ID ZAMESTNANEC</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>D ZAKAZNIK</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID ZAMESTNANEC</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="5fb9368c-f33b-45b7-ba66-d8f698a3eae4">
+          <CubeDimensionID>D FUNKCE ZAMESTNANEC</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b1cea751-5bf7-49bd-9fa5-8b47e6e1906f">
+              <AttributeID>ID FUNKCE ZAMESTNANEC</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>D ZAMESTNANEC</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID FUNKCE ZAMESTNANEC</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="2d731a6d-6fd8-43c5-992e-ef5a6e79d74c">
+          <CubeDimensionID>D ZDROJ - ID TYP ZDROJ</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2c8f5bd5-6be9-4e02-a39b-5e49b8eb7aa9">
+              <AttributeID>ID TYP ZDROJ</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>D ZDROJ</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>ID TYP ZDROJ</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="340f5f39-aadf-4a96-b434-60e213f57b0d">
+          <CubeDimensionID>Čas</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="76149133-bfbf-4dc5-b6ae-22b0648769ba">
+              <AttributeID>Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d12c5961-d874-4816-ad1a-3e7f07e91f3f">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d4851fca-daa0-418b-9f6b-483caae196ac">
+                    <TableID>dbo_F_KONTRAKT</TableID>
+                    <ColumnID>OD_KONTRAKT</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="5ff62acb-eb02-4332-b7fa-303c159da47a">
+    <DataSourceViewID>Kitboxtools</DataSourceViewID>
+  </Source>
+</Cube>

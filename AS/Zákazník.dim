@@ -1,0 +1,204 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7a5fbc65-5aaf-41ab-919f-40d4c0a08c7c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>D ZAKAZNIK</ID>
+  <Name>Zákazník</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2282" scrolltop="-3360" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9472" y="10292" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="D_ZAKAZNIK" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4868" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000004130000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_D_ZAKAZNIK" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2282</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3360</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b5407fad-6b88-49bd-80d4-8b8a3a21d322">
+    <DataSourceViewID>Kitboxtools</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="12d35c8b-fde1-4b82-bc72-ac54f29e368f">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="cf2e62d9-9cdf-4271-b67a-d6b69d8ff155">
+      <ID>ID ZAKAZNIK</ID>
+      <Name>ID ZAKAZNIK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d236b230-cf86-40f4-b634-8d80f957d9b4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ca326dc-39ef-40ec-997a-2ed1f17efee2">
+            <TableID>dbo_D_ZAKAZNIK</TableID>
+            <ColumnID>ID_ZAKAZNIK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f6440201-58e5-436f-842b-4aaa10059003">
+          <AttributeID>ID PSC</AttributeID>
+          <Name>ID PSC</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0aed86d2-9525-4ef1-a71b-1b714ceea5c4">
+          <AttributeID>ID KATEGORIE ZAKAZNIK</AttributeID>
+          <Name>ID KATEGORIE ZAKAZNIK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d17a8436-e0dc-4499-b03d-a5a6f03da9d3">
+          <AttributeID>ID ZAMESTNANEC</AttributeID>
+          <Name>ID ZAMESTNANEC</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="60ce479a-c8e5-40a5-bcf3-2a0a682d7a37">
+          <AttributeID>ICO ZAKAZNIK</AttributeID>
+          <Name>ICO ZAKAZNIK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ba8b984c-d115-436e-8d85-69775b496d1e">
+          <AttributeID>NAZEV ZAKAZNIK</AttributeID>
+          <Name>NAZEV ZAKAZNIK</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4fae9d72-ce47-46b3-9541-fd2679262821">
+      <ID>ID PSC</ID>
+      <Name>ID PSC</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="75087c16-e2e2-4892-ae78-6e99a84c2bb3">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d46f9608-445e-46a7-a314-7561cea8d1ff">
+            <TableID>dbo_D_ZAKAZNIK</TableID>
+            <ColumnID>ID_PSC</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="51c24328-5644-4669-afd0-39f3597a5039">
+      <ID>ID KATEGORIE ZAKAZNIK</ID>
+      <Name>ID KATEGORIE ZAKAZNIK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b5030b1d-204b-4740-ac92-19d013ce73fb">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="609a09d9-7174-44c9-8e4e-d871f393f1e8">
+            <TableID>dbo_D_ZAKAZNIK</TableID>
+            <ColumnID>ID_KATEGORIE_ZAKAZNIK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b8243919-7ecb-4b3a-bf90-7d27bc56506e">
+      <ID>ID ZAMESTNANEC</ID>
+      <Name>ID ZAMESTNANEC</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="45149e48-312d-4dbb-a56b-cd01d92072b9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5b357734-f774-41ff-b384-6d505f83aea0">
+            <TableID>dbo_D_ZAKAZNIK</TableID>
+            <ColumnID>ID_ZAMESTNANEC</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="88d24ad6-53f9-4483-b93c-6cec2b9a5244">
+      <ID>ICO ZAKAZNIK</ID>
+      <Name>ICO ZAKAZNIK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8b5a7fd1-fa32-4cdc-a8de-56f2180cc8c6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aee4b3fa-a66b-4e93-abd1-a4a204e8c656">
+            <TableID>dbo_D_ZAKAZNIK</TableID>
+            <ColumnID>ICO_ZAKAZNIK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="85005b38-88c9-4d10-a2c6-512ea039610e">
+      <ID>NAZEV ZAKAZNIK</ID>
+      <Name>NAZEV ZAKAZNIK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b2301382-a3ab-45f2-b20e-750ce977005b">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a6aa36ef-2dae-4f94-8b4f-47f1686ce23c">
+            <TableID>dbo_D_ZAKAZNIK</TableID>
+            <ColumnID>NAZEV_ZAKAZNIK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

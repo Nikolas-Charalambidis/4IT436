@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>Default</ProcessingOption>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -26,44 +26,114 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>+T+GKSCLe/ncKmx77siDj77HHE4=02/05/19 11:46:0902/05/19 11:46:09</TimeStamp>
+        <TimeStamp>3HNleVqmt9duD99aWTob73wPgyk=02/05/19 13:42:2702/05/19 11:46:09</TimeStamp>
         <ID>
           <String>Kitboxtools</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>9fEO9WDnfLp/uYRo77zj3DR2p7U=02/05/19 11:46:4402/05/19 11:46:44</TimeStamp>
+        <TimeStamp>MjPO+0pFTHaqcJKco3Kw1rLS2D4=05/05/19 14:51:1404/05/19 22:37:02</TimeStamp>
         <ID>
-          <String>D_KATEGORIE_ZAKAZNIK</String>
+          <String>D DRUH UCETNI OPERACE</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>LISJzW36Kxdvl1Rd5lEGDv1uR1Y=02/05/19 11:47:1802/05/19 11:47:18</TimeStamp>
+        <TimeStamp>jJjvZSKlr7yZinJvzd1NSh/YyPU=05/05/19 14:50:4404/05/19 22:37:02</TimeStamp>
+        <ID>
+          <String>D FINANCNI REALIZACE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>b5SuDkEB4Cyqiqpp2CjVxn/oWGc=05/05/19 14:50:3504/05/19 22:37:02</TimeStamp>
+        <ID>
+          <String>D PSC</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>D1BXt2AiEx/4eh1AgQNpZvWiYd8=05/05/19 14:50:2704/05/19 22:37:02</TimeStamp>
         <ID>
           <String>D KATEGORIE ZAKAZNIK</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>K9/s0ORNMuEsOotWAU4q8agLA7A=02/05/19 11:47:1802/05/19 11:47:18</TimeStamp>
+        <TimeStamp>LOcOYeU1OVIVM9LB8+rZBlthyDg=05/05/19 14:50:1704/05/19 22:37:02</TimeStamp>
+        <ID>
+          <String>D ZAMESTNANEC</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>emFjjNAffe4M1GN4wa7g8M6NWwo=05/05/19 14:50:1104/05/19 22:37:02</TimeStamp>
         <ID>
           <String>D ZAKAZNIK</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>aPPgX47jbhdq8PDY3q32AgCgPHQ=02/05/19 11:47:1802/05/19 11:47:18</TimeStamp>
+        <TimeStamp>fHSf1lDbjNy2KA8M/ZpioJQ0/bY=05/05/19 14:50:0304/05/19 22:37:02</TimeStamp>
+        <ID>
+          <String>D FUNKCE ZAMESTNANEC</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>orjg+WQVjp7VJpfHXq3vP8AHvJ4=05/05/19 14:49:5404/05/19 22:37:02</TimeStamp>
+        <ID>
+          <String>D TYP ZDROJ</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>aEYGbHh4S1U8Tc8Wy3AHo6a0LZ0=05/05/19 14:49:4804/05/19 22:37:02</TimeStamp>
         <ID>
           <String>D ZDROJ</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>wf8N4aAf12VGEwQAu3bNY3xyx6A=02/05/19 11:47:1802/05/19 11:47:184EweVRLtrgaARgFlyBEkukNMpfY=02/05/19 11:47:1802/05/19 11:47:18</TimeStamp>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>mHN73g/gvDmaIR7CmNy8hdqwwsY=05/05/19 14:49:4104/05/19 22:37:02</TimeStamp>
         <ID>
-          <String>Cube1</String>
+          <String>D TYP UCETNI OPERACE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fk0og8izifdOq8YQR13k7Y6bbWI=05/05/19 12:42:5704/05/19 23:41:48</TimeStamp>
+        <ID>
+          <String>Čas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>aaDWg3+BGR8h23eUdQG4l4+YSLk=05/05/19 14:49:3305/05/19 13:59:36</TimeStamp>
+        <ID>
+          <String>D POBOCKA 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>2DibSQ9ysF+nC7Vul6xaPh4pS5g=05/05/19 14:58:3004/05/19 22:40:04B0vNXaPJElCE9DevHlVObcHu/DI=05/05/19 14:58:3004/05/19 22:40:04</TimeStamp>
+        <ID>
+          <String>Kontrakty</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>hexB8GlwvYV+Q4o6qEahjNsJP9w=05/05/19 14:59:3504/05/19 23:33:29vMt/Wnru8g8ERy8MOnUfp3nMyQs=04/05/19 23:33:2904/05/19 23:33:29</TimeStamp>
+        <ID>
+          <String>Transakce</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>A1xJV17OJ3h6b3D5ivn+3Kz7qJg=05/05/19 15:00:2505/05/19 00:04:31JV82vPqGs0gnlrq9cTdpudgEBNs=05/05/19 11:50:0805/05/19 00:04:31</TimeStamp>
+        <ID>
+          <String>21-Zdroj</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
@@ -78,5 +148,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-05-02T09:48:16.736667Z</LastDeployed>
+  <LastDeployed>2019-05-05T13:00:43.576667Z</LastDeployed>
 </DeploymentSnapshot>
